@@ -4,13 +4,14 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, process.cwd(), "");
+  loadEnv(mode, process.cwd(), ""); // Optional if not using any env vars
+
   return {
-    base: `/${env.VITE_REPO_NAME}/`,
+    base: '/', // User/Org page - no subdirectory
     plugins: [react(), tailwindcss()],
     server: {
       open: true,
-      host: false, // Allow access from network devices
+      host: false,
       proxy: {
         "/api": {
           target: "http://localhost:5000",
