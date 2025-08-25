@@ -1,19 +1,18 @@
-# Picto - Personal Portfolio Free Template
+// ...existing code...
+# Personal Portfolio Free Template
 
 #### Preview
 
-- [Demo](https://themewagon.github.io/picto/)
+- [Demo](https://mrmzqa.github.io)
 
-#### Download
 
-- [Download from ThemeWagon](https://themewagon.com/themes/picto)
 
 ## Getting Started
 
 1. Clone Repository
 
 ```
-git clone https://github.com/themewagon/picto.git
+git clone https://github.com/mrmzqa/mrmzqa.github.io.git
 ```
 
 2. Install Dependencies
@@ -34,14 +33,22 @@ pnpm dev
 bun dev
 ```
 
+### Deploy
+
+For automatic deploy using gh-pages (script included in package.json):
+
+```
+npm run deploy
+```
+
+(Ensure you have the `gh-pages` package globally or in devDependencies.)
+
 ## Author
 
 ```
-Developed by ThemeWagon and development team.
+Maintained by mrmzqa.
 ```
 
 ## License
 
-- Design and Code is Copyright &copy; <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
-- Licensed cover under [MIT]
-- Developed by <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
+

@@ -35,17 +35,17 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} Picto.
+          Copyright &copy; {copyrightYear} mrmzqa.
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Developed with ❤️ by{" "}
+        Developed with  by{" "}
         <a
-          href="https://www.themewagon.com"
+          href="https://mrmzqa.github.io"
           className="underline font-bold"
           target="_blank"
         >
-          ThemeWagon
+          mrmzqa
         </a>
       </p>
     </div>

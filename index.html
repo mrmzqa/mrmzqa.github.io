@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="hUTF-8" />
+    <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" class="rounded-b-4xl w-8 text-white" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css">
@@ -12,7 +12,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 
-    <title>Portfolio</title>
+    <title>mrmzqa — Portfolio</title>
 </head>
 
 <body class="">
@@ -22,3 +22,20 @@
 </body>
 
 </html>
+
+{
+    "name": "mrmzqa.github.io",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "deploy": "vite build && gh-pages --dotfiles -d dist -r https://github.com/mrmzqa/mrmzqa.github.io.git",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        /* ...existing code... */
+    }
+}
