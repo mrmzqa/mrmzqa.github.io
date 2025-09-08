@@ -40,7 +40,25 @@ export function Skills() {
           </p>
         </div>
 
-      
+        <Card className="max-w-6xl mx-auto">
+          <CardHeader>
+            <CardTitle className="text-center">Technical Proficiency</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div>
+                {leftColumnSkills.map((skill) => (
+                  <SkillItem key={skill.name} name={skill.name} level={skill.level} />
+                ))}
+              </div>
+              <div>
+                {rightColumnSkills.map((skill) => (
+                  <SkillItem key={skill.name} name={skill.name} level={skill.level} />
+                ))}
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );

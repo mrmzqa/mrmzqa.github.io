@@ -206,19 +206,7 @@ export function Resume() {
             </Card>
 
             {/* Technical Skills */}
-            <Card>
-              <CardContent className="p-6">
-                <h3 className="text-xl mb-4">Technical Skills</h3>
-                <div className="space-y-3">
-                  {technicalSkills.map((skillGroup, index) => (
-                    <div key={index}>
-                      <strong className="text-sm">{skillGroup.category}:</strong>
-                      <span className="text-sm ml-2">{skillGroup.skills}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+           
 
             {/* Recent Projects */}
             <Card>
