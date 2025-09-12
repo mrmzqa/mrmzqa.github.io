@@ -8,69 +8,7 @@ export function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('all');
 
   const portfolioItems = [
-    {
-      id: 1,
-      title: 'HealthMate App',
-      category: 'app',
-      image: 'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzU3Mjk3MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'A comprehensive health tracking mobile application'
-    },
-    {
-      id: 2,
-      title: 'TaskFlow',
-      category: 'app',
-      image: 'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzU3Mjk3MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Project management and productivity application'
-    },
-    {
-      id: 3,
-      title: 'Travelio',
-      category: 'app',
-      image: 'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzU3Mjk3MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Travel planning and booking mobile app'
-    },
-    {
-      id: 4,
-      title: 'EcoBottle',
-      category: 'product',
-      image: 'https://images.unsplash.com/photo-1667237346955-7b6cbb0815e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc1NzMxMzcwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Sustainable water bottle product design'
-    },
-    {
-      id: 5,
-      title: 'SmartLamp',
-      category: 'product',
-      image: 'https://images.unsplash.com/photo-1667237346955-7b6cbb0815e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc1NzMxMzcwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'IoT-enabled smart lighting solution'
-    },
-    {
-      id: 6,
-      title: 'WavePods',
-      category: 'product',
-      image: 'https://images.unsplash.com/photo-1667237346955-7b6cbb0815e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc1NzMxMzcwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Wireless earbuds with premium sound quality'
-    },
-    {
-      id: 7,
-      title: 'Coffee Co. Rebrand',
-      category: 'app',
-      image: 'https://images.unsplash.com/photo-1633533450371-4d3562ca227f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZCUyMGlkZW50aXR5JTIwZGVzaWdufGVufDF8fHx8MTc1NzI3OTkzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Complete brand identity redesign for coffee company'
-    },
-    {
-      id: 8,
-      title: 'Nova Agency',
-      category: 'app',
-      image: 'https://images.unsplash.com/photo-1633533450371-4d3562ca227f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZCUyMGlkZW50aXR5JTIwZGVzaWdufGVufDF8fHx8MTc1NzI3OTkzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Modern branding for digital marketing agency'
-    },
-    {
-      id: 9,
-      title: 'GreenLife',
-      category: 'app',
-      image: 'https://images.unsplash.com/photo-1633533450371-4d3562ca227f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZCUyMGlkZW50aXR5JTIwZGVzaWdufGVufDF8fHx8MTc1NzI3OTkzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      description: 'Sustainable living brand identity and packaging'
-    },
+    
     {
       id: 10,
       title: 'Tech Startup Logo',
