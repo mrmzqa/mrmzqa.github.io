@@ -41,12 +41,12 @@ export function Contact() {
     {
       icon: MapPin,
       title: 'Address',
-      value: 'Doha, Qatar'
+      value: 'Kerala,India'
     },
     {
       icon: Phone,
       title: 'Call',
-      value: '+974 71713634'
+      value: '+917907626573'
     },
     {
       icon: Mail,
