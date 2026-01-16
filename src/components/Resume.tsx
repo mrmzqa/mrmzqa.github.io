@@ -119,8 +119,8 @@ export function Resume() {
                   Strong background in AI/ML, software design, and ERP systems.
                 </p>
                 <div className="space-y-1 text-sm">
-                  <div>Doha, Qatar</div>
-                  <div>+974 71713634</div>
+                  <div>India</div>
+                  <div>+91 7907626573</div>
                   <div>mrmzqa@gmail.com</div>
                   <div className="flex space-x-2">
                     <a href="https://github.com/mrmzqa" className="text-primary hover:underline">GitHub</a>

@@ -4,8 +4,8 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function About() {
   const contactInfo = [
-    { icon: Phone, label: 'Phone', value: '+974 71713634' },
-    { icon: MapPin, label: 'City', value: 'Qatar, Doha' },
+    { icon: Phone, label: 'Phone', value: '+91 7907626573' },
+    { icon: MapPin, label: 'City', value: 'India, Kerala' },
     { icon: Mail, label: 'Email', value: 'mrmzqa@gmail.com' },
     { icon: CheckCircle, label: 'Freelance', value: 'Available' },
   ];

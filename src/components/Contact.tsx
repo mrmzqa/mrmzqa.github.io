@@ -94,7 +94,7 @@ export function Contact() {
               <CardContent className="p-0">
                 <div className="w-full h-64 bg-muted rounded-lg flex items-center justify-center">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89534.39422837466!2d51.464451477220614!3d25.284268429688876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha!5e0!3m2!1sen!2sqa!4v1756219647238!5m2!1sen!2sqa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d149528.39934017044!2d76.17775169874979!3d9.991296065825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1768605208394!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                     width="100%"
                     height="256"
                     style={{ border: 0 }}
